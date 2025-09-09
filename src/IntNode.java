@@ -1,12 +1,4 @@
-public class IntNode {
 
-    public int item;
-    public IntNode nest;
-
-    public IntNode(int i, IntNode n) {
-        this.item = i;
-        this.nest = n;
-    }
 
 //    public int size() {
 //        if (rest == null) {
@@ -27,13 +19,13 @@ public class IntNode {
 //        return p.first;
 //    }
 //
-////    public int get(int i) {
-////        if (i == 0) {
-////            return this.first;
-////        }
-////
-////        return this.rest.get(i - 1);
-////    }
+/// /    public int get(int i) {
+/// /        if (i == 0) {
+/// /            return this.first;
+/// /        }
+/// /
+/// /        return this.rest.get(i - 1);
+/// /    }
 //
 //    public static int iterativeSize(IntNode p) {
 //        int totalSize = 0;
@@ -49,11 +41,11 @@ public class IntNode {
 //
 //    public static void main(String[] args) {
 //
-////        IntList L = new IntList(5, null);
-////
-////        L.rest = new IntList(10, null);
-////
-////        L.rest.rest = new IntList(15, L);
+/// /        IntList L = new IntList(5, null);
+/// /
+/// /        L.rest = new IntList(10, null);
+/// /
+/// /        L.rest.rest = new IntList(15, L);
 //
 //        IntNode L = new IntNode(15, null);
 //        L = new IntNode(10, L);
@@ -67,4 +59,4 @@ public class IntNode {
 //    }
 
 
-}
+
